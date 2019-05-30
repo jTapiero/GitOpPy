@@ -1,0 +1,35 @@
+Concrètement, voilà ce qu'on peut faire avec Python :
+
+de petits programmes très simples, appelés scripts, chargés d'une mission très précise sur votre ordinateur ;
+
+des programmes complets, comme des jeux, des suites bureautiques, des logiciels multimédias, des clients de messagerie…
+
+des projets très complexes, comme des progiciels (ensemble de plusieurs logiciels pouvant fonctionner ensemble, principalement utilisés dans le monde professionnel).
+
+Voici quelques-unes des fonctionnalités offertes par Python et ses bibliothèques :
+
+créer des interfaces graphiques ;
+
+faire circuler des informations au travers d'un réseau ;
+
+dialoguer d'une façon avancée avec votre système d'exploitation ;
+
+… et j'en passe…
+
+Python est un langage de programmation interprété, c'est-à-dire que les instructions que vous lui envoyez sont « transcrites » 
+en langage machine au fur et à mesure de leur lecture. D'autres langages (comme le C / C++) sont appelés « langages compilés » car,
+ avant de pouvoir les exécuter, un logiciel spécialisé se charge de transformer le code du programme en langage machine. 
+ On appelle cette étape la « compilation ». À chaque modification du code, il faut rappeler une étape de compilation.
+
+
+Les avantages d'un langage interprété sont la simplicité (on ne passe pas par une étape de compilation avant d'exécuter son programme)
+et la portabilité (un langage tel que Python est censé fonctionner aussi bien sous Windows que sous Linux ou Mac OS,
+et on ne devrait avoir à effectuer aucun changement dans le code pour le passer d'un système à l'autre).
+ Cela ne veut pas dire que les langages compilés ne sont pas portables, loin de là !
+  Mais on doit utiliser des compilateurs différents et, d'un système à l'autre, certaines instructions ne sont pas compatibles, voire se comportent différemment.
+
+
+
+En contrepartie, un langage compilé se révélera bien plus rapide qu'un langage interprété
+(la traduction à la volée de votre programme ralentit l'exécution), bien que cette différence tende à se faire de moins en moins sentir au fil des améliorations.
+De plus, il faudra installer Python sur le système d'exploitation que vous utilisez pour que l'ordinateur puisse comprendre votre code.
