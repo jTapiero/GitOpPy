@@ -1,6 +1,6 @@
 # exception 
 '''
-lorsque l interpreteur detecte une code ou un code deffectueux(commande impossible, variable non implementer,...)
+lorsque l interpreteur detecte une code ou un code deffectueux(commande impossible , variable non implementer,...)
 il leve ce qu on apelle une exception pour faire remonter l erreur 
 une exception est un objet compose dun nom et d'une explication de l erreur
 
