@@ -65,4 +65,7 @@ le return est automatique
         var2=var(7) ==> var2==49
         var3=lmb(7,5) ==> var3==35
 '''
-#
+#assertion
+'''
+les assertion sobnt des 
+'''
