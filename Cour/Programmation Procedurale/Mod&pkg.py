@@ -1,14 +1,14 @@
 #Module 
 '''
 un module python est un emsenble de code(objet,fonction,variable....)
-se trouvent sur une autre page et dont on veut utiliser les ressources aui se trouvent a l interieur
+se trouvent sur une autre page et dont on veut utiliser les ressources qui se trouvent a l interieur
 ex: une fonction sqrt qui se trouve dans un module(Page) qui sapelle
     declaration:
         import [NomModule]
     utilisation:
         NomModule.fct()
 si le nom dune fonction se trouve dans le module et dans mon code il n y aura 
-pas de conflit car la donction du module serea dans lespoace de nom du module
+pas de conflit car la donction du module serea dans lespace de nom du module
 un espace de nom est un espace memoire ou sont stocke des variables object fonction 
 
 on peut changer lespace de nom du module
@@ -17,7 +17,7 @@ on peut importer qune fonction dun module
     ex: from [NomModule] import [NomFonction]
         NomFonction()
         from [NomModule] import * ==> importe toutes lesfonction du module
-                                      attention ces donction ne feront pas parti de l espace de nom du module risque de conflit
+                                      attention ces fonction ne feront pas parti de l espace de nom du module risque de conflit
 on peut importer un module a partir de linterpreteur python lui meme
     ex: import math 
 on peut creer et importer ses propres module(un module est un fichier)

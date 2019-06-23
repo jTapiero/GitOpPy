@@ -16,7 +16,7 @@
     NomVar=Val
 #Les types 
     '''
-    Un type ou type de donne 
+    Un type ou type de donnee 
     est la categorie de la valeur qui est stockes dans la variable
     de par cette categorie sont aussi attribuer le taille de la variable 
     
@@ -27,6 +27,7 @@
         les "" peuvent contenir les ''
         \ permet de rendre string les charactere problematique
         \n saut de ligne
+        \t tabulation
     Bool   : peut contenir la valeur False ou True 
 
     fct:
