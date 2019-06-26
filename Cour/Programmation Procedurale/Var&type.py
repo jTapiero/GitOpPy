@@ -16,7 +16,7 @@
     NomVar=Val
 #Les types 
     '''
-    Un type ou type de donne 
+    Un type ou type de donnee 
     est la categorie de la valeur qui est stockes dans la variable
     de par cette categorie sont aussi attribuer le taille de la variable 
     
@@ -27,12 +27,23 @@
         les "" peuvent contenir les ''
         \ permet de rendre string les charactere problematique
         \n saut de ligne
+<<<<<<< HEAD
         \t Tabulation
+=======
+        \t tabulation
+>>>>>>> master
     Bool   : peut contenir la valeur False ou True 
 
     fct:
-        type(var) ==> permet d obtenir le type de la variable  
+        type(var) ==> permet d obtenir le type de la variable
 
+    String Fct:
+        str.lower()        ==> change tous les characteres en minuscule  
+        str.upper()        ==> change tous les characteres en minuscules
+        str.capitalize()   ==> Change le premier charactere en majuscule
+        str.strip()        ==> Retire les especes en debut et fin de chaine 
+        str.fct().center(x)==> met la chaine de taille x et centre les charactere au milieu de la chaine 
+        
 
 
     '''

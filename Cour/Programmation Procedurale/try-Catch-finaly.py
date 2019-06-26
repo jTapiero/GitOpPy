@@ -1,7 +1,7 @@
 # exception 
 '''
 lorsque l interpreteur detecte une code ou un code deffectueux(commande impossible , variable non implementer,...)
-il leve ce qu on apelle une exception pour faire remonter l erreur 
+il leve ce qu on apelle une exception pour faire remonter l erreur(de par la meme il arrete le programme) 
 une exception est un objet compose dun nom et d'une explication de l erreur
 
 ex: ZeroDivisionError: int division or modulo by zero

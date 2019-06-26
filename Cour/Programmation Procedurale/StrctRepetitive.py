@@ -1,11 +1,11 @@
 # While 
 '''
-    en python tout ce qui se trouve endenter
-    au dessous dune commande est pour signifier que cest le contenu de la commande 
+    en python tout ce qui se trouve 
+    en dessous + tab  dune commande est pour signifier que cest le contenu de la commande 
     while :s'exectute tant que le predicat est vrai   
-    on peut imbrique les while comme omn veut 
+    on peut imbrique les while comme on veut 
     on peut mettre plusieur predicat grace a and or not
-    ne pas oublier un increment afin que le predicat devient faqux sinon on risque une boucle infinie
+    ne pas oublier un increment afin que le predicat devient faux sinon on risque une boucle infinie
       
 
 
@@ -17,11 +17,11 @@
 '''
 # for foreach
 '''
-    en python tout ce qui se trouve endenter
-    au dessous dune commande est pour signifier que cest le contenu de la commande 
+    en python tout ce qui se trouve 
+    en dessous+tabs dune commande est pour signifier que cest le contenu de la commande 
     for :s'exectute pour tout les elements dune sequence   
     on peut imbrique les for comme on veut 
-    for est lequivalent des foreach en python
+    for est l'equivalent des foreach en python
     une chaine de charactere est une liste 
 
 

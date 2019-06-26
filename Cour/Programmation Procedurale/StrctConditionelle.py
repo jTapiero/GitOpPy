@@ -28,8 +28,8 @@
 
 #if-else-elif
     '''
-    en python tout ce qui se trouve endenter
-    au dessous dune commande est pour signifier que cest le contenu de la commande 
+    en python tout ce qui se trouve indenter
+    en dessous dune commande est pour signifier que cest le contenu de la commande 
     if   :verifie si le predicat est vrai 
     else :cas ou le predicat est faux
     elif :cas ou le predicat est faux et on rajoute un predicat 
@@ -49,21 +49,21 @@
                 cmd1         #si predicat == False
                 cmd2
         
-        3:  if [predicat]:
-                cmd1         #si predicat == True
+        3:  if [predicat1]:
+                cmd1         #si predicat1 == True
                 cmd2 
-            elif [predicat]:
-                cmd1         #si predicat == False et on  rajoute un predicat pour des resultat affine
+            elif [predicat2]:
+                cmd1         #si predicat1 == False et on  rajoute un predicat pour des resultat affine
                 cmd2
             else:
-                cmd1         #si predicat == False
+                cmd1         #si predicat2 == False
                 cmd2
 
         4:  if [predicat]:
-                cmd1         #si predicat == True
+                cmd1         #si predicat1 == True
                 cmd2 
             elif [predicat]:
-                cmd1         #si predicat == False et on  rajoute un predicat pour des resultat affine
+                cmd1         #si predicat1 == False et on  rajoute un predicat pour des resultat affine
 
         5:  if [predicat]:
                 if [predicat]:
