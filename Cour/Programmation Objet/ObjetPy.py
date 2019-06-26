@@ -1,3 +1,25 @@
+#Class
+'''
+    Une classe est un 
+    #propriete
+    #Constructeur
+    #methode
+    Declaration
+
+
+
+'''
+#Objet
+'''
+    instanciation
+    utilisation 
+'''
+
+
+
+
+
+
 """
 Definition Class
 on  définit leur nom en Camelcase

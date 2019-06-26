@@ -27,6 +27,7 @@
         les "" peuvent contenir les ''
         \ permet de rendre string les charactere problematique
         \n saut de ligne
+        \t Tabulation
     Bool   : peut contenir la valeur False ou True 
 
     fct:
