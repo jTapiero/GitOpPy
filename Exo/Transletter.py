@@ -1,4 +1,4 @@
-#!/bin/python
+#!/usr/bin/python3.6
 """133t Translator Module"""
 from Tools.Input import *
 
@@ -16,6 +16,7 @@ def i33tTrsl(texte):
           'w':'\\/\\/',
           'u':'|_|',
           's':'$',
+	  'g':'6',
           't':'7',
           'x':'*'}
     for letter in texte:

@@ -8,5 +8,7 @@ help(x)ou('x') ==> donne des information sur objet fonction module x
     help(math) ==> donne des information sur math
     help(math.sqrt) ==> donne des information sur math.sqrt 
 
+del ===> permet de deleter un variable , un objet,
+
 
 """
