@@ -9,3 +9,5 @@ print(enumerate(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']))
 an=[]
 an[1]=45
 print(an)
+an=[1,2,3]
+an=[1,2,3]

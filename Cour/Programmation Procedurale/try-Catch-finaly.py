@@ -30,6 +30,7 @@ type of exception:-ValueError
                   -NameError
                   -TypeError
                   -ZeroDivisionError
+                  -KeyError
 
 le bloc except va permettre de capturer un exception est d executer 
 un bloc dinstruction concernant la ou les errors attrape                   
