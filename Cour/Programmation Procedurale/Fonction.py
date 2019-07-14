@@ -50,7 +50,35 @@ dans dautre language de programation la signature dune fonction est la combinais
 en python le nom de la fonction est sa signature et une redefinition le la fonction ecrase lancienne def
 
 ''' 
+# parametre indefini
+'''
+il est possible de creer une fonction dont ont ne connais pas a l avance le nombre de parametre 
+les parametre sont utilisable sous forme de tuple dans la fonction
+pour utiliser une liste en tant que liste de parametre
+declaration:
+    def [NomFct](*param):
+utilisation:
+    fct(paran1,param2,param3,...)
+    def fct(*parametre):
+        for elem in parametre
+    pour utiliser une liste en tant que liste de parametre on met * dans l appel de la fonction
+    fct(*[liste param])
 
+si ont veut aussi ajouter des parametres normale on les places avant le paraametre indetermine
+declaration:
+    def [NomFct](param1,param2,*param):
+utilisation:
+    fct(paran1,param2,param3,param4,paran5,param6)
+    def fct(param1,param2,*parametre):
+        param1
+        param2
+        for elem in parametre    
+
+'''
+# parametre indefini
+'''
+
+'''
 # Fonction Lambda
 '''
 ume fonction lambda est une fonction qui est plus court qu une fonction normale

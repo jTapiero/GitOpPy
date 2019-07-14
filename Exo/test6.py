@@ -14,3 +14,8 @@ class test2:
 
 yo=test2("yo2")
 print(yo.text)
+
+
+liste=[1,2,3,4,5]
+print(liste[1:-1])
+inventaire = [("pommes", 22),("melons", 4),("poires", 18),("fraises", 76),("prunes", 51)]
