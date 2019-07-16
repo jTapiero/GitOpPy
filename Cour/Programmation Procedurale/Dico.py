@@ -27,6 +27,28 @@ fonction:
         ex: dic.pop(Key1) ==> Value,{}
 
 '''
+#Parcour dico
+'''
+#for 
+    dans un for les elements renvoye sont les keys de la listes 
+    ex:
+        for elem in dico: ==> elem=key1 => key2=>....
+    
+    pour obtenir juste les clefs du dico 
+    ex:
+        for elem in dico.keys():
+
+    pour obtenir juste les valeurs du dico 
+    ex:
+        for elem in dico.values():
+        
+    pour obtenir les clefs et les valeurs du dico
+    ex:
+        for cles,valeurs in dico.items():        
+
+    
+
+'''
 
 #set
 '''

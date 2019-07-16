@@ -27,11 +27,7 @@
         les "" peuvent contenir les ''
         \ permet de rendre string les charactere problematique
         \n saut de ligne
-<<<<<<< HEAD
         \t Tabulation
-=======
-        \t tabulation
->>>>>>> master
     Bool   : peut contenir la valeur False ou True 
 
     fct:
@@ -44,8 +40,10 @@
         str.strip()        ==> Retire les especes en debut et fin de chaine 
         str.fct().center(x)==> met la chaine de taille x et centre les charactere au milieu de la chaine 
         
-
-
     '''
+#Variable Scope
+'''
+c est lar
+'''
 
 
