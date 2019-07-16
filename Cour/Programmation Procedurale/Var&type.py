@@ -43,7 +43,46 @@
     '''
 #Variable Scope
 '''
-c est lar
+la portee des variable 
+l espace locale 
+la reference des variables
+    chaque variable est un objet en python
+    chaque objet possedent une reference en memoire 
+    
+    on peut faire en sorte que plusieur objet pointent tous vers la meme reference  
+    dans les cas 
+les variables globale 
+
+
+
+les variables mutable et immutable en python 
+    les variables immutables sont une categorie 
+
+referencement des variable en python
+    en python une variable est compose de deux partie
+    une partie 'label' et une partie objet
+    la partie label possedent le nom de la variable et la reference vers un objet 
+    la partie objet possedent une valeur un type et un id 
+
+    la reference est une adresse dans l espace memoire de stockage de l ordinateur contenant l objet 
+    
+    en python lorsque une ou plusieur variable ont la meme valeur elle n ont pas plusieur objet contenneur qui leur sont associeer
+    mais une objet/conteneur vers lequelle tous ces labels pointes
+
+les espaces de nom 
+
+les variables mutables et immutables 
+
+
+
+    possede un nom et une reference 
+    cette reference mene a un objet contenant une valeur un type et un id 
+    
+
+    
+     chaque variable posse est u
+    chaque objet possedent une reference en memoire
+
 '''
 
 
