@@ -75,8 +75,17 @@ utilisation:
         for elem in parametre    
 
 '''
-# parametre indefini
+# recuperer des parametres nomme dans une liste indefie de parametre en utilisant un dico
 '''
+def fonction_inconnue(**parametres_nommes):
+    parametres_nommes
+fonction_inconnue(p=4, j=8)
+def fonction_inconnue(*en_liste, **en_dictionnaire):
+tous les non nomme se trouveronr en en liste 
+tous les nomme se trouveront dans en dictionnaires 
+passer un dico en parametre
+    parametres = {"sep":" >> ", "end":" -\n"}
+    print("Voici", "un", "exemple", "d'appel", **parametres)
 
 '''
 # Fonction Lambda

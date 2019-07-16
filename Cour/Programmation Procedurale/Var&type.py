@@ -40,8 +40,10 @@
         str.strip()        ==> Retire les especes en debut et fin de chaine 
         str.fct().center(x)==> met la chaine de taille x et centre les charactere au milieu de la chaine 
         
-
-
     '''
+#Variable Scope
+'''
+c est lar
+'''
 
 
