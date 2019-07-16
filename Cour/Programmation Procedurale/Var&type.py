@@ -27,11 +27,7 @@
         les "" peuvent contenir les ''
         \ permet de rendre string les charactere problematique
         \n saut de ligne
-<<<<<<< HEAD
         \t Tabulation
-=======
-        \t tabulation
->>>>>>> master
     Bool   : peut contenir la valeur False ou True 
 
     fct:
