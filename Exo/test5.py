@@ -1,3 +1,4 @@
+import os
 anne=1
 a='anne==0'
 if a:
@@ -11,3 +12,4 @@ an[1]=45
 print(an)
 an=[1,2,3]
 an=[1,2,3]
+

@@ -56,4 +56,4 @@ if 'o' in texte:
 
 yo=input('rentrer qqcose bsvp:\n')
 print(texte,type(yo))
-print(yo+5)    
+print(yo+5)  
