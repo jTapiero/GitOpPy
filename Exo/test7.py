@@ -27,6 +27,13 @@ def test2(param):
 test2(30)
 print(te)
 
+vare=460
+if vare==460:
+        vare=2
+        print(vare)
+print(vare)
+
+
 
 def test3():
     global varb
