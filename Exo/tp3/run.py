@@ -4,10 +4,10 @@ import os
 def RuleGame():
     '''Affiche les regles du jeu '''
     print('jeu du pendu:')
-    print('regle:\n \t-un mot est choisie au hasard dans une liste de mot de longueur max 8\n \t -Vs avez 8 vie ')
-    print('\t-Chaque tour vous devez deviner une lettre du mot \n \t -si vous deviner une ou plusieur lettre du mot les lettres apparaissent ')
-    print('\t-sinon vous perdez une vie \n \t -vous deviner le mot: votre nombre de vie restantr s ajoute avotre score totale ')
-    print('\t-vous le deviner pas vous l aver perdu')
+    print('regle:\n\t-un mot est choisie au hasard dans une liste de mot de longueur max 8\n\t-Vs avez 8 vie ')
+    print('\t-Chaque tour vous devez deviner une lettre du mot \n\t-si vous deviner une ou plusieurs lettres du mot les lettres apparaissent ')
+    print('\t-sinon vous perdez une vie \n\t-vous deviner le mot: votre nombre de vie restant sajoute a votre score totale ')
+    print('\t-vous le deviner pas vous avez perdu')
     os.system('pause')
     os.system('clear')
 def run():

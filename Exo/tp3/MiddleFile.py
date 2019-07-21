@@ -63,12 +63,14 @@ class MiddleFile:
         sSize=0
         for elem in self.getAll():
             nSize=max(nSize,len(elem['name']))
-            sSize=max(sSize,len(str(elem['score'])))
-        print('_'*(nSize+sSize))
-        print('\|','name'.center(nSize),'\|','score'.center(sSize),'\|')
-        print('\|','_'*nSize,'\|','_'*sSize,'\|')
+            sSize=max(sSize,len(str(elem['score'])))      
+        nSize=max(nSize,len('name'))
+        sSize=max(sSize,len('score'))
+        print('_'*(nSize+sSize+7))
+        print('|','name'.center(nSize),'|','score'.center(sSize),'|')
+        print('|','_'*nSize,'|','_'*sSize,'|')
         for elem in self.getAll():
-            print('\|',str(elem['name']).center(nSize),'\|',str(elem['score']).center(sSize),'\|')
-        print('_'*(nSize+sSize))
+            print('|',str(elem['name']).center(nSize),'|',str(elem['score']).center(sSize),'|')
+        print('|','_'*(nSize+sSize+3),'|')
 
        

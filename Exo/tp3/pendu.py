@@ -24,7 +24,7 @@ class Pendu:
         else:
             return False
     def checkLetter(self,letter):
-        if letter in self.mot:
+        if letter in self.mot and len(letter) == 1:
             return True
         else:
             return False
