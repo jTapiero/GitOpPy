@@ -1,6 +1,6 @@
 # Fonction 
 '''
-une fonction est une suite d operatiomn qu on cherche a appeler plusieur fois dans notre code
+une fonction est une suite d operation qu on cherche a appeler plusieur fois dans notre code
 en changant ou pas ses parametre
 les parametre et le return sont en fonction de ce que veut faire l utilisateur  
 important:tjrs definir les fonction  avanr de les appel python compile et execute  en procedurale 
@@ -52,8 +52,8 @@ en python le nom de la fonction est sa signature et une redefinition le la fonct
 ''' 
 # parametre indefini
 '''
-il est possible de creer une fonction dont ont ne connais pas a l avance le nombre de parametre 
-les parametre sont utilisable sous forme de tuple dans la fonction
+il est possible de creer une fonction dont on ne connais pas a l avance le nombre de parametre 
+les parametreד sont utilisable sous forme de tuple dans la fonction
 pour utiliser une liste en tant que liste de parametre
 declaration:
     def [NomFct](*param):
