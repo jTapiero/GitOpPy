@@ -37,7 +37,7 @@
         str.lower()        ==> change tous les characteres en minuscule  
         str.upper()        ==> change tous les characteres en minuscules
         str.capitalize()   ==> Change le premier charactere en majuscule
-        str.strip()        ==> Retire les especes en debut et fin de chaine 
+        str.strip()        ==> Retire les espaces en debut et fin de chaine 
         str.fct().center(x)==> met la chaine de taille x et centre les charactere au milieu de la chaine 
         
     '''
@@ -60,7 +60,7 @@ les variables mutables et immutables
     les immutables:
         ce sont des variables qui ne 'changent' pas
         c est a dire que lorsque on affecte une nouvelle valeur sur cette variable
-        l objet referenceer n est pas modifier c est a dire qu un autre objet contenant la nouvelle valeur se deer 
+        l objet referenceer n est pas modifier c est a dire qu un autre objet contenant la nouvelle valeur se creer 
         et la variable reference vers ce nouvelles objet 
 
         ce sont les variables tel que int string float tuple
@@ -89,7 +89,7 @@ les espaces de nom
     
     lorsque python est lancer il possedent deja un namespace BUILT-in contenant les fonction de bases inclus dans python
     dans ce namespace built in va etre creer un namespace globale dans lequelle va etre executer notre code courant
-    a chaque fois q une fonction, un objet,un package ou module sera appeler un sous namespace sera rajouter 
+    a chaque fois qu une fonction, un objet,un package ou module sera appeler un sous namespace sera rajouter 
     de maniere ordonner au namespace global
     en fonction de l on nous trouvons nous trouvons different types de namespace
         namespace:-build-in : tous les entite contenu sont accesible dans tous les namespace
@@ -108,7 +108,7 @@ les espaces de nom
         def fct ():#namespace local
             global vari
             vari=30
-    les variables locale de sclarent en dessous la docstring
+    les variables locale se declarent en dessous la docstring
     lorsque on import un module par la fonction 'import' on rajoute a notre namespace actuelle un objet liste contenant tous les elements ddu fichier importer
     pour acceder a ces elements il faut preciser leur adresse (c est aussi leur namespace) :module.element.elemet.fc()
     lorsquon modifie ces elements on les modifie dans leur namespace ce qui fait que leur acess est donne par namespace globale mais leur modification ce fait comme l orsq il sont en local

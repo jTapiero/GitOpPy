@@ -8,9 +8,9 @@ String to list
 
 list to string 
 
-    "".join(list) ==> mais tous les elements de la liste dans une chaine separer par un espace 
+    " ".join(list) ==> mais tous les elements de la liste dans une chaine separer par un espace 
     ex:
-        "".join(['string','to','str','ing'])==> 'string to str ing'
+        " ".join(['string','to','str','ing'])==> 'string to str ing'
         
 '''
 #List comprehension
