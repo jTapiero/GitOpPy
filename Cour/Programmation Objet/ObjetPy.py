@@ -1,5 +1,11 @@
-#Class
+#La programmation oriente Objet POO
 '''
+la programmation oriente objet est un paradigme de programmation
+un paradigme de programmation est une maniere de programmer 
+la poo consiste a modeliser les differents elements abstrait ou concret d une solution sous formes d objet ayant une relation les un par rapport au autres 
+un objet est une entite compose de caracteristique appeler attribut et d action appeler methode 
+afin de construire un objet on va creer lui creer un plan modele appeler class  
+
     Une classe est un 
     #propriete
     #Constructeur
