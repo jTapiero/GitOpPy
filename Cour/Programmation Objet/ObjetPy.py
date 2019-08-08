@@ -1,10 +1,32 @@
 #La programmation oriente Objet POO
 '''
-la programmation oriente objet est un paradigme de programmation
-un paradigme de programmation est une maniere de programmer 
-la poo consiste a modeliser les differents elements abstrait ou concret d une solution sous formes d objet ayant une relation les un par rapport au autres 
-un objet est une entite compose de caracteristique appeler attribut et d action appeler methode 
-afin de construire un objet on va creer lui creer un plan modele appeler class  
+declaration classe:
+    class NomClasse:
+        """docstring"""
+        def __init__(self):#constructeur
+            """docstring"""
+            self.Atribut1=0
+            self.Atribut2=""
+            .... 
+            
+            un constructeur sert a instancier un objet sur le model de la class
+            self sert a representer l objet nouvellement creer on va lui affecter des attribut
+            un constructeur peut prendre des parametres en plus de self 
+            utilisation:
+                objet1=NomClasse()
+            utilisation Atribut:
+                objet.Atribut=
+            utilisation Methode:
+                objet.Methode()
+        
+        def methode1(self,param1,param2):#methode
+            """docstring"""
+            on peut definir autant de methode qu on veut dans une classe 
+            on peut acceder a l instance de l objet qui appelle la methode par self 
+            on peut acceder a lobjet de la classe par cls
+            
+        
+
 
     Une classe est un 
     #propriete
@@ -12,6 +34,10 @@ afin de construire un objet on va creer lui creer un plan modele appeler class
     #methode
     Declaration
 
+utilisation Atribut:
+    objet.Atribut=
+utilisation Methode:
+    objet.Methode()
 
 
 '''
